@@ -1,0 +1,25 @@
+.viewing{
+    padding: $pd-3 + 2 0;
+    .viewing__content{
+        width: 90%;
+        margin: 0 auto;
+        h2{
+            font-size: $fs-3;
+        }
+    }
+
+    @include reponsive('screen-1'){
+        .viewing__content{
+            .card{
+                height: 275px;
+                .card-body{
+                    padding: 1rem;
+                    .card-title{
+                        @include styleText($color-black-0, $fs-1, $fw-1);
+                        margin-bottom: $mg-0 + 5;
+                    }
+                }
+            }
+        }   
+    }
+}

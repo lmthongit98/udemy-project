@@ -1,0 +1,41 @@
+.partners{
+    background-color: $color-gray-6;
+    padding: $pd-3 0;
+    .partners__content{
+        width: 70%;
+        margin: 0 auto;
+        .partners__text{
+            text-align: center;
+        }
+        .partners__imgs{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    @include reponsive("extra-large"){
+        .partners__content{
+            width: 80%;
+        }
+    }
+
+    @include reponsive("large"){
+        .partners__content{
+            width: 90%;
+        }
+    }
+
+    @include reponsive("medium"){
+        .partners__content{
+            width: 60%;
+            .partners__imgs{
+                flex-wrap: wrap;
+                .partners__item{
+                    text-align: center;
+                    width: 50%;
+                    margin-bottom: $mg-2;
+                }
+            }
+        }
+    }
+}

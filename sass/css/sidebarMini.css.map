@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,KAAK,EAAE,KAAK;EACZ,GAAG,EAAE,GAAG;EACR,KAAK,EAAE,CAAC;EACR,QAAQ,EAAE,KAAK;CAClB",
+    "sources": [
+        "../Layouts/sidebarMini.scss"
+    ],
+    "names": [],
+    "file": "sidebarMini.css"
+}
